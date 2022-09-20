@@ -2,24 +2,27 @@
 Build2=New_1,b4a.example
 Build3=New_2,b4a.example2
 File1=_GlobalListView.bal
-File10=l_t2.bal
-File11=l_TemplateAtribut.bal
-File12=l_utama.bal
-File13=MainPage.bal
-File14=ukuranhelm.jpg
-File15=ukuranjaketcrop.jpg
-File16=v2.bal
-File17=v3.bal
-File18=v4.bal
-File19=ximageslider_video.bal
+File10=l_t1.bal
+File11=l_t2.bal
+File12=l_tampilanatrribut2.bal
+File13=l_tampilpilihatribut.bal
+File14=l_TemplateAtribut.bal
+File15=l_utama.bal
+File16=MainPage.bal
+File17=ukuranhelm.jpg
+File18=ukuranjaketcrop.jpg
+File19=v2.bal
 File2=BelajarWebview.apk
+File20=v3.bal
+File21=v4.bal
+File22=ximageslider_video.bal
 File3=GlobalBody.bal
 File4=l_atributReDesain.bal
 File5=l_atributRequest.bal
 File6=l_Awal.bal
 File7=l_igSlide.bal
 File8=l_InputDataAtribut.bal
-File9=l_t1.bal
+File9=l_Scroll_View.bal
 FileGroup1=Default Group
 FileGroup10=Default Group
 FileGroup11=Default Group
@@ -32,6 +35,9 @@ FileGroup17=Default Group
 FileGroup18=Default Group
 FileGroup19=Default Group
 FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
 FileGroup3=Default Group
 FileGroup4=Default Group
 FileGroup5=Default Group
@@ -63,7 +69,7 @@ Module5=Starter
 Module6=V2
 Module7=v3
 Module8=v4
-NumberOfFiles=19
+NumberOfFiles=22
 NumberOfLibraries=14
 NumberOfModules=8
 Version=11.8
@@ -92,7 +98,7 @@ Sub Process_Globals
 	Dim rp As RuntimePermissions
 	Type SliderContainer(slider As xImageSliderIG, items As List)
 	Dim imei As String
-	dim ph as Phone
+	Dim ph As Phone
 End Sub
 
 Sub Globals

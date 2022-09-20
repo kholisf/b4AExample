@@ -19,7 +19,8 @@ Sub Class_Globals
 	Dim ccb As cobadesain
 	Dim p As Phone
 	Dim fl As FileProvider
-	Dim mar As MenuAtribut_request
+'	Dim mar As MenuAtribut_request
+	Dim mar As V2
 End Sub
 
 Public Sub Initialize

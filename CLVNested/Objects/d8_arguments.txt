@@ -1,0 +1,28 @@
+--release
+--output
+C:\Users\user\Desktop\new contoh\CLVNested\Objects
+--lib
+C:\000Pendukung\Android\platforms\android-30\android.jar
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63792589670000\dex_v1\b4ashared.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-core-63792589670000\dex_v1\core.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-xcustomlistview-63792589670000\dex_v1\xcustomlistview.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-xui-63792589670000\dex_v1\xui.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-viewsex-63792589670000\dex_v1\viewsex.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-stringutils-63792589670000\dex_v1\stringutils.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-javaobject-63792589670000\dex_v1\javaobject.zip
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\clvnested.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main$1.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main$ResumeMessage.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main$WaitForLayout.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\main.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\R$drawable.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\R$style.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\R.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\starter$1.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\starter$2.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\starter$starter_BR.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\starter.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\designerscripts\LS_1.dex
+C:\Users\user\Desktop\new contoh\CLVNested\Objects\dexed\b4a\example\designerscripts\LS_layout_item.dex

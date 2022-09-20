@@ -9,7 +9,10 @@ Sub Class_Globals
 	Private xui As XUI 'ignore
 	Private ScrollingCLV As CustomListView
 	Private ScrollingCLVHorizontal As Boolean
-	Private StartOffset As Float
+	Private StartOffset As Float = 0
+	
+	
+	
 	Private ScrollPosition As Float
 	Public base As B4XView
 	Public CLV As CustomListView 
@@ -47,6 +50,9 @@ Private Sub tpc_OnTouchEvent (Action As Int, X As Float, Y As Float, MotionEvent
 					Dim index As Int = CLV.FindIndexFromOffset(StartOffset + CLV.sv.ScrollViewOffsetY)
 					Dim item As CLVItem = CLV.GetRawListItem(index)
 					Dim innerIndex As Int = ScrollingCLV.FindIndexFromOffset(StartOffset + CLV.sv.ScrollViewOffsetY - item.Offset + ScrollingCLV.sv.ScrollViewOffsetY)
+					Log(index& "  index")
+					Log(item&" item")
+					Log(innerIndex&" innerIndex")
 				End If
 				CallSub2(ScrollingCLV, "Panel" & "ClickHandler", ScrollingCLV.GetRawListItem(innerIndex).Panel) 'ignore
 			End If
@@ -86,6 +92,8 @@ End Sub
 Private Sub GetInnerCLVFromTouch (x As Float, Y As Float) As CustomListView
 	Dim index As Int = CLV.FindIndexFromOffset(Y + CLV.sv.ScrollViewOffsetY)
 	Dim item As CLVItem = CLV.GetRawListItem(index)
+	Log($"Dim ${index }As Int"$)
+	Log($"Dim ${item } As CLVItem "$)
 	If item.Panel.GetView(0).Tag Is CustomListView Then
 		Dim inner As CustomListView = item.Panel.GetView(0).Tag
 			

@@ -1,0 +1,18 @@
+--release
+--output
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects
+--lib
+C:\000Pendukung\Android\platforms\android-30\android.jar
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63792589670000\dex_v1\b4ashared.zip
+C:\000Pendukung\Android\tools\..\extras\b4a_local\unpacked-core-63792589670000\dex_v1\core.zip
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main$1.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main$B4AMenuItemsClickListener.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main$HandleKeyDelayed.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main$ResumeMessage.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main$WaitForLayout.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\main.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\R$drawable.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\R$style.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\R.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\designerscripts\LS_main.dex
+C:\Users\user\Desktop\new contoh\ScrollViewBigPanel\Objects\dexed\KCSoft\ScrollViewBigPanel\designerscripts\LS_scrollviewlayout.dex

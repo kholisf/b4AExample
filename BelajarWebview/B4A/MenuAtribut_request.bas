@@ -49,30 +49,30 @@ Private Sub B4XPage_Created (Root1 As B4XView)
 	nested.base.LoadLayout("GlobalBody")
 	nested.CLV = CLVGlob
 	
-	Dim p0 As Panel = xui.CreatePanel("")
-	Dim lbl As Label
-	lbl.Initialize("lbl")
-	lbl.Padding = Array As Int(18, 11, 18, 11)
-	lbl.TextColor = 0x80000000
-	lbl.Color = 0x80FFC90D
-	lbl.Height=60dip
-	lbl.Width  = GetDeviceLayoutValues.Width
-	Dim cs As CSBuilder
-	cs.Initialize.Size(17).Append("Ikuti panduan foto ")
-	cs.Clickable("cs", 1).Color(0xFF00A7FF).Append("ini ").Bold.Pop.Pop
-	cs.Append("untuk mempermudah pemilihan ukuran atribut").PopAll
-	cs.EnableClickEvents(lbl)
-	lbl.Text = cs
-	p0.SetLayout(0,0,GetDeviceLayoutValues.Width,60dip)
-	p0.AddView(lbl.As(View),0,0,GetDeviceLayoutValues.Width,60dip)
-	CLVGlob.Add(p0,"0")
+'	Dim p0 As Panel = xui.CreatePanel("")
+'	Dim lbl As Label
+'	lbl.Initialize("lbl")
+'	lbl.Padding = Array As Int(18, 11, 18, 11)
+'	lbl.TextColor = 0x80000000
+'	lbl.Color = 0x80FFC90D
+'	lbl.Height=60dip
+'	lbl.Width  = GetDeviceLayoutValues.Width
+'	Dim cs As CSBuilder
+'	cs.Initialize.Size(17).Append("Ikuti panduan foto ")
+'	cs.Clickable("cs", 1).Color(0xFF00A7FF).Append("ini ").Bold.Pop.Pop
+'	cs.Append("untuk mempermudah pemilihan ukuran atribut").PopAll
+'	cs.EnableClickEvents(lbl)
+'	lbl.Text = cs
+'	p0.SetLayout(0,0,GetDeviceLayoutValues.Width,60dip)
+'	p0.AddView(lbl.As(View),0,0,GetDeviceLayoutValues.Width,60dip)
+'	CLVGlob.Add(p0,"0")
 
 '	Root.LoadLayout("GlobalBody")
 '	For i =0 To 5
 '	CLVGlob.AddTextItem($"Ikuti panduan foto untuk mempermudah pemilihan ukuran atribut"$, "")
 	Dim p As Panel = xui.CreatePanel("")
-	p.SetLayout(0,0,GetDeviceLayoutValues.Width,GetDeviceLayoutValues.Height)
-'	p.SetLayout(0,0,GetDeviceLayoutValues.Width,150dip)
+'	p.SetLayout(0,0,GetDeviceLayoutValues.Width,GetDeviceLayoutValues.Height)
+	p.SetLayout(0,0,GetDeviceLayoutValues.Width,260dip)
 '	Root.LoadLayout("l_atributRequest")
 	p.LoadLayout("l_t1")
 '	p.SetLayout(0,0,GetDeviceLayoutValues.Width,btnCobaLagi.Top+btnCobaLagi.Height+50dip)
@@ -126,9 +126,9 @@ Private Sub txtAlamat_FocusChanged (HasFocus As Boolean)
 	
 End Sub
 
-Private Sub clvInput_ItemClick (Index As Int, Value As Object)
-	Log("klik")
-End Sub
+'Private Sub clvInput_ItemClick (Index As Int, Value As Object)
+'	Log("klik clvinput")
+'End Sub
 
 Private Sub btnCobaLagi_Click
 	
@@ -139,7 +139,10 @@ Private Sub lblKamera_Click
 End Sub
 
 Private Sub Button1_Click
-	
+	Dim b4 As v4
+	b4.Initialize
+	B4XPages.AddPage("v4",b4)
+	B4XPages.ShowPage("v4")
 End Sub
 
 Private Sub Label2_Click
@@ -398,4 +401,12 @@ Private Sub lblTambah_Click
 '	lblJml.Visible = True
 '	lblJml.Tag = lblJml.Tag.As(Int)+1)
 '	lblJml.Tag = 
+End Sub
+
+Private Sub ivBarang_LongClick
+	
+End Sub
+
+Private Sub ivBarang_Click
+	Log("ivBarang_Click")
 End Sub
